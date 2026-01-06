@@ -15,7 +15,7 @@ export function Clouds() {
       <img
         src={clouds}
         className="absolute -bottom-20 left-0 w-full z-10"
-        alt="clouds"
+        alt="clouds design"
       />
 
       {/* Flying carrier birds  */}
