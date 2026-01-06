@@ -1,16 +1,10 @@
 import imessageLogo from "/images/imessage.png";
 import appleLogo from "/images/apple.png";
 import bird from "/images/bird.png";
-import { motion } from "motion/react";
 
 export function Hero() {
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 2 }}
-      className="container relative flex flex-col justify-center items-center md:px-6 gap-12 "
-    >
+    <section className="container relative flex flex-col justify-center items-center md:px-6 gap-12 ">
       {/* Birds */}
       <div className="absolute h-full w-full">
         <div className="absolute top-30 left-1/20 md:top-40 md:left-2/10">
@@ -55,6 +49,6 @@ export function Hero() {
           <p>Download the Mac app</p>
         </button>
       </div>
-    </motion.section>
+    </section>
   );
 }
