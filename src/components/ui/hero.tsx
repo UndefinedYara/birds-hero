@@ -8,7 +8,7 @@ export function Hero() {
     <motion.section
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 3 }}
+      transition={{ duration: 2 }}
       className="container relative flex flex-col justify-center items-center md:px-6 gap-12 "
     >
       {/* Birds */}
