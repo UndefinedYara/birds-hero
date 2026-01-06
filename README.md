@@ -26,11 +26,13 @@ A mobile prototype was not provided. Therefore, design decisions for mobile and 
 
 ### Full Screen View
 
-![Desktop](public/images/demo/desktop.png)
+<img src="public/images/demo/desktop.png" alt="desktop" width="600"/>
 
 ### Mobile View
 
-![Mobile](public/images/demo/mobile.png)
+<img src="public/images/demo/mobile.png" alt="mobile" width="200"/>
+
+
 
 ## Getting Started
 
